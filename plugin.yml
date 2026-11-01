@@ -1,0 +1,17 @@
+name: EclipseSMP
+version: '1.0.0'
+main: dev.eclipse.smp.EclipsePlugin
+api-version: '1.21'
+description: Eclipse SMP active and passive abilities powered by Essence.
+commands:
+  abilities:
+    description: Open the ability menu
+    aliases: [ability, ab]
+  essence:
+    description: Check or manage Essence
+  eclipse:
+    description: Eclipse SMP admin commands
+permissions:
+  eclipse.admin:
+    description: Manage Essence and abilities
+    default: op

@@ -1,0 +1,40 @@
+# Eclipse SMP configuration
+
+# How many abilities a player can have equipped at once
+max-equipped: 2
+
+# Essence cost to unlock any ability
+unlock-cost: 5
+
+# Essence earned per kill
+essence-per-player-kill: 1
+essence-per-mob-kill: 0
+
+# Seconds without damage before a "combat encounter" ends (used by Second Wind)
+combat-timeout-seconds: 15
+
+# What left-clicking (in the air) with an ability item does:
+#   cycle  = switch to your other ability item
+#   active = also use the active ability
+#   none   = nothing
+left-click-action: cycle
+
+# Active ability cooldowns in seconds
+cooldowns:
+  phantom: 35
+  crosscut: 12
+  counter: 20
+  singularity: 40
+  chainreaction: 18
+  overload: 30
+  afterimage: 30
+  rewind: 45
+  soulchains: 35
+  phoenix: 45
+
+# Damage values in HEARTS
+damage:
+  double-slash-hit: 1.0
+  chain-lightning-first: 2.0
+  chain-lightning-jump: 1.5
+  overload-explosion: 3.0
